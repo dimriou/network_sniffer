@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gui.Register"
+            android:label="@string/title_activity_register"
+            android:parentActivityName="com.example.gui" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gui" />
+        </activity>
+        <activity
+            android:name="com.example.gui.User"
+            android:label="@string/title_activity_user"
+            android:parentActivityName="com.example.gui" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gui" />
+        </activity>
+        <activity
+            android:name="com.example.gui.Admin"
+            android:label="@string/title_activity_admin"
+            android:parentActivityName="com.example.gui" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gui" />
+        </activity>
+        <activity
+            android:name="com.example.gui.LogerActivity"
+            android:label="@string/title_activity_loger" >
+        </activity>
+        <activity
+            android:name="com.example.gui.Gagagggagaaga"
+            android:label="@string/title_activity_gagagggagaaga" >
+        </activity>
+        <activity
+            android:name="com.example.gui.BadUser"
+            android:label="@string/title_activity_bad_user" >
+        </activity>
+    </application>
+
+</manifest>

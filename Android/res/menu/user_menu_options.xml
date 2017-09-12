@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/search_button"
+          android:title="@string/search_button"
+          android:showAsAction="never" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:showAsAction="never" />
+    <!-- Log Out Option -->
+    <item android:id="@+id/log_out_button"
+          android:title="@string/log_out_button"
+          android:showAsAction="never" />
+    <item android:id="@+id/my_interfaces"
+          android:title="@string/my_interfaces"
+          android:showAsAction="never" />
+    <item android:id="@+id/refresh"
+          android:title="@string/refresh"
+          android:showAsAction="never" />
+</menu>

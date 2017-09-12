@@ -1,0 +1,10 @@
+WSDL url
+NAMESPACE
+server ip
+server port
+interval thread 2
+interval thread 3
+[Available nodes]
+node1
+node2
+a

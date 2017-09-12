@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="log_out_button">Log out</string>
+    <string name="search_button">search</string>
+    <string name="button_login">login</string>
+    <string name="button_register">register</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="title_activity_register">Register</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="statistics">PCLAPTOPS</string>
+    <string name="interfaces">INTERFACES</string>
+    <string name="deletemal">DELETE</string>
+    <string name="addmal">ADD</string>
+    <string name="delete">Delete</string>
+    <string name="addpattern">Add Pattern</string>
+    <string name="addip">Add Ip</string>
+    <string name="addhint">Enter pattern to add</string>
+    <string name="addhintip">Enter Ip to add</string>
+    <string name="delhint">Enter name to delete</string>
+    <string name="title_activity_user">User</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_loger">LogerActivity</string>
+    <string name="my_interfaces">show mine</string>
+    <string name="refresh">refresh</string>
+    <string name="title_activity_gagagggagaaga">Gagagggagaaga</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_bad_user">BadUser</string>
+
+</resources>
